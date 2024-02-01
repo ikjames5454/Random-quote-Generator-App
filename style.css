@@ -1,0 +1,93 @@
+body{
+    background-image: url(image_Gallery/il_1140xN.4589887900_k94h.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 750px;
+    
+}
+.generate{
+    background-color:brown;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px 10px;
+    font-size: 100px;
+    opacity: 0.9;
+    border: brown;
+    border-radius: 6px;
+    
+    
+}
+
+.main{
+    background-image: url(image_Gallery/PXL_20221213_154814675.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 1000px;
+}
+
+.Quote{
+    font-size: 50px;
+    color: white;
+}
+.Author{
+    font-size: 50px;
+    color: red;
+    margin-left: 50%;
+    
+}
+.quotes{
+    background-color: black;
+    margin: 15px;
+    padding: 10px;
+}
+
+.button{
+    font-size: 30px;
+    margin-bottom: 35px;
+    margin-left: 42%;
+    padding: 15px 30px;
+    border-radius: 20px;
+    background-color: aquamarine;
+    border-color: aquamarine ;
+    border: aquamarine ;
+    cursor: pointer;
+}
+
+.italics{
+    font-style: italic;
+}
+.sound{
+    font-size: 50px;
+    color: aqua;
+    
+    
+
+}
+
+.sds{
+    border: 1px solid blue;
+    width: 100px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    background-color: green;
+    border-radius: 150px;
+    border-color: green;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    
+}
+li{
+    list-style: none;
+    margin-left: -16px;
+}
+
+.sds:hover{
+    background-color: blue;
+    color: black;
+}
