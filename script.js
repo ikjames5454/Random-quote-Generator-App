@@ -108,7 +108,9 @@ let selectedVoice;
 
 const setVoice = () => {
   const voices = speechSynthesis.getVoices();
-  selectedVoice = voices.find(voice => voice.name === 'Google UK English Male') || voices[0];
+  const preferredVoices = ['Google UK English Male', 'Google US English', 'Microsoft Zira - English (United States)', 'Microsoft David - English (United States)'];
+  
+  selectedVoice = voices.find(voice => preferredVoices.includes(voice.name)) || voices[0];
 };
 
 const containers = async () => {
